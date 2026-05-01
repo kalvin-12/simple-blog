@@ -44,9 +44,9 @@
   
  Data tersimpan di localStorage – tetap ada meski browser ditutup (kecuali dibersihkan). 
   
- 🌐 Deployment (GitHub Pages / Vercel) 
+ 🌐 Deployment (GitHub Pages) 
   
- Karena aplikasi ini menggunakan `index.html` sebagai file utama, Anda dapat dengan mudah melakukan deployment ke GitHub Pages atau Vercel tanpa konfigurasi tambahan. 
+ Karena aplikasi ini menggunakan `index.html` sebagai file utama, Anda dapat dengan mudah melakukan deployment ke GitHub Pages tanpa konfigurasi tambahan. 
   
  ### GitHub Pages: 
  1. Push repositori Anda ke GitHub. 
@@ -54,9 +54,6 @@
  3. Pilih branch `main` (atau `master`) dan folder `/ (root)`. 
  4. Klik **Save**. 
   
- ### Vercel: 
- 1. Hubungkan repositori GitHub Anda ke Vercel. 
- 2. Vercel akan secara otomatis mendeteksi `index.html` dan melakukan deployment. 
   
  📝 Catatan Penting 
  Data hanya disimpan di browser – jika pengguna membersihkan cache/localStorage, data akan hilang. 
@@ -67,16 +64,7 @@
   
  Untuk penggunaan banyak pengguna, pertimbangkan mengganti localStorage dengan backend database. 
   
- 🧪 Pengembangan Lebih Lanjut 
- Ide fitur tambahan: 
-  
- Pencarian postingan 
-  
- Kategori/tag 
-  
- Dark mode 
-  
- Tombol ekspor ke JSON 
+
   
  📄 Lisensi 
  MIT – bebas digunakan, dimodifikasi, dan didistribusikan. 
